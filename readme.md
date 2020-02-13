@@ -1,9 +1,5 @@
 # LaravelTelegramBot
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-
 Laravel 6 package to manage Telegram Bot
 
 ## Preparation
