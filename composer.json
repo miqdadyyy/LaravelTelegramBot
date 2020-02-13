@@ -1,0 +1,43 @@
+{
+    "name": "miqdadyyy/laraveltelegrambot",
+    "description": "Telegram Bot for laravel 6",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miqdad",
+            "email": "miqdad.farcha@gmail.com",
+            "homepage": "http://miqdad.codes"
+        }
+    ],
+    "homepage": "https://github.com/miqdadyyy/laraveltelegrambot",
+    "keywords": ["Laravel", "LaravelTelegramBot"],
+    "require": {
+        "illuminate/support": "~5|~6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3|~4",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Miqdadyyy\\LaravelTelegramBot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Miqdadyyy\\LaravelTelegramBot\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Miqdadyyy\\LaravelTelegramBot\\LaravelTelegramBotServiceProvider"
+            ],
+            "aliases": {
+                "LaravelTelegramBot": "Miqdadyyy\\LaravelTelegramBot\\Facades\\LaravelTelegramBot"
+            }
+        }
+    }
+}
